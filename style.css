@@ -26,16 +26,16 @@
 
 .tim img {
     width: 250px;
-    border: 10px solid #CCCCCC;
+    border: 10px solid #b074ff;
 }
 
 a.social {
     display: inline-block;
     width: 40px;
     height: 40px;
-    color: #fff;
+    color: #ffffff;
     border-radius: 50%;
-    background-color: #333;
+    background-color: #b074ff;
     line-height: 40px;
 }
 .client img {
@@ -48,5 +48,5 @@ a.social {
     background-size: cover;
     padding-bottom: 20%;
     padding-top: 20%;
-    color: #fff;
+    color: #ffffff;
 }
