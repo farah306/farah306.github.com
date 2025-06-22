@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!-- Navigasi -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">LINGOO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                            <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#pilihmetode">pilihmetode</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tentang">Tentang</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+     <!-- Banner -->
+    <div class="container-fluid banner">
+        <div class="container text-center">
+            <h4 class="display-6"></h4>
+            <h3 class="display-1"></h3>
+            <a href="#pilihmetode">
+                <button type="button" class="btn btn-danger btn-lg">pilihmetode</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- Layanan -->
+    <div class="container-fluid layanan pt-5 pb-5">
+        <div class="container text-center">
+            <h2 class="display-3" id="pilihmetode"></h2>
+            
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pilihan Daur Ulang Sampah</title>
+<style>
+body {
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.option {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer; /* Menambahkan kursor pointer saat di hover */
+}
+.option i {
+  margin-right: 10px;
+}
+.content {
+  display: none; /* Sembunyikan konten secara default */
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  background-color: #f9f9f9;
+}
+.option.active .content {
+  display: block; /* Tampilkan konten jika option aktif */
+}
+</style>
+</head>
+<body>
+
+<h1>Pilih Metode Daur Ulang</h1>
+<div class="container">
+  <div class="option" onclick="toggleContent(this)">
+    <i class="fas fa-truck"></i> Pickup <br>
+    <span style="font-size:smaller;">Mitra akan menjemput sampahmu</span>
+    <div class="content">
+      <h2>Informasi Pickup</h2>
+      <p>Detail tentang layanan pickup sampah akan ditampilkan di sini.</p>
+    </div>
+  </div>
+  <div class="option" onclick="toggleContent(this)">
+    <i class="fas fa-exchange-alt"></i> Drop Off <br>
+    <span style="font-size:smaller;">Antarkan langsung sampahmu</span>
+    <div class="content">
+      <h2>Informasi Drop Off</h2>
+      <p>Detail tentang layanan drop off sampah akan ditampilkan di sini.</p>
+    </div>
+  </div>
+  <div class="option" onclick="toggleContent(this)">
+    <i class="fas fa-box"></i> Ms Box <br>
+    <span style="font-size:smaller;">Tukar sampahmu jadi points</span>
+    <div class="content">
+      <h2>Informasi Ms Box</h2>
+      <p>Detail tentang layanan Ms Box akan ditampilkan di sini.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+function toggleContent(element) {
+  element.classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
+    <!-- Portofolio -->
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Daur Ulang</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style2.css"> </head>
+<body>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Produk Carousel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+   
+<!-- Tentang -->
+     <div class="container-fluid pt-5 pb-5">
+        <div class="container">
+            <h2 class="display-3 text-center" id="tentang"></h2>
+            <p class="text-center">PRODUK DAUR ULANG</p>
+            <div class="clearfix pt-5">
+    <div class="container">
+        <div id="productCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="2000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuJAxl8zO2Xy3nzNi8aEZT1sa7WrFDZHs-JQ&s" class="card-img-top" alt="Kacamata Hitam Wanita">
+                                <div class="card-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYeLS4TzAnzWCKJOnR3dM36N7DXXwnQXUP1Q&s" class="card-img-top" alt="SEPATU ADIDAS">
+                                <div class="card-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="https://asset.kompas.com/crops/EtXsD5o6PaeRALMjQJk5JsLEGhQ=/0x0:0x0/1200x800/data/photo/2022/10/27/635a608f104d9.jpg" class="card-img-top" alt="KEMEJA">
+                                <div class="card-body">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="https://img.antarafoto.com/cache/1200x798/2021/10/23/kerajinan-daur-ulang-sampah-di-tegal-wpox-dom.jpg" class="card-img-top" alt="Tas Wanita">
+                                <div class="card-body">                      
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="https://ytknews.id/wp-content/uploads/2022/08/WhatsApp-Image-2022-08-22-at-17.47.05.jpeg" class="card-img-top" alt="Cushion">
+                                <div class="card-body">                       
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="https://radartegal.disway.id/upload/821b0109d4378ee94022b37d7f2c1cfa.jpeg" class="card-img-top" alt="CUTBRAY">
+                                <div class="card-body">                               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+    <main>
+        <section id="video-kreasi">
+            <h2>Video Kreasi Daur Ulang</h2>
+            <div class="video-container">
+                <!-- Embed video di sini (misalnya, YouTube embed) -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Njjque3N2wU?" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="upload-foto">
+            <h2>Unggah Foto Kreasi Anda</h2>
+            <form id="upload-form" enctype="multipart/form-data">
+                <input type="file" id="image-upload" accept="image/*">
+                <button type="submit">Unggah</button>
+            </form>
+            <div id="uploaded-images">
+                <!-- Gambar yang diunggah akan ditampilkan di sini -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer di sini -->
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script> </body>
+</html>
+     <!-- Client -->
+       <div class="container-fluid client pt-5 pb-5">
+        <div class="container text-center">
+            <div class="row pt-4 gx-4 gy-4">
+                <div class="col">
+                    <img src="https://img.icons8.com/ios_filled/512/microsoft.png">
+                </div>
+                <div class="col">
+                    <img src="https://img.icons8.com/ios_filled/512/facebook-new.png">
+                </div>
+                <div class="col">
+                    <img src="https://cdn-icons-png.flaticon.com/256/61/61109.png">
+                </div>
+                <div class="col">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt62s_W1Q9ktI919TRQ3Zd8W-6lAPl72jpKA&s">
+                </div>
+                <div class="col">
+                    <img src="https://pngimg.com/d/ibm_PNG19655.png">
+                </div>
+            </div>
+        </div>
+       </div>
+       <!-- Kontak -->
+        <div class="container-fluid pt-5 pb-5 kontak">
+            <div class="container">
+                <h2 class="display-3 text-center" id="kontak">Kontak Kami</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, tempore!</p>
+                <div class="row pb-3">
+                    <div class="col-md-6">
+                        <input class="form-control form-control-lg mb-3" type="text" placeholder="Nama">
+                        <input class="form-control form-control-lg mb-3" type="text" placeholder="Email">
+                        <input class="form-control form-control-lg" type="text" placeholder="No. Phone">
+                    </div>
+                    <div class="col-md-6">
+                        <textarea class="form-control form-control-lg" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-3 mx-auto text-center">
+                    <button type="button" class="btn btn-danger btn-lg">Kirim Pesan</button>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center pt-5 pb-5">
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+        
